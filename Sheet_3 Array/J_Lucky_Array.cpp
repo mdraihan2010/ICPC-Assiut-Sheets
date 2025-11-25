@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    int arr[n];
+    for (int i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+
+    int mn = arr[0];
+    int count = 0;
+
+    for (int i = 0; i < n; i++)
+        if (arr[i] == mn)
+            count++;
+
+    if (count % 2 == 1)
+        printf("Lucky\n");
+    else
+        printf("Unlucky\n");
+
+    return 0;
+}
