@@ -8,6 +8,7 @@ This repository contains my solutions to the ICPC Assiut University Community tr
 - Sheet #2: Loops
 - Sheet #3: Arrays
 - Sheet #4: Strings
+- Sheet #5: Functiion
 
 More sheets will be added gradually.
 
@@ -17,7 +18,7 @@ More sheets will be added gradually.
 
 ## Language
 
-- C++
+- C & C++
 
 ## Author
 
