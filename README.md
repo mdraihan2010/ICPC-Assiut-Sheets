@@ -18,16 +18,6 @@ More sheets will be added gradually.
 
 - C++
 
-## Repository Structure
-
-```text
-ICPC-Assiut-Sheets
-│
-├── Sheet_1 Data type and Variable
-├── Sheet_2 Loop
-└── Sheet_3 Array
-```
-
 ## Author
 
 **Raihan**
